@@ -2,17 +2,6 @@
 
 Utility to convert between various proxy subscription formats.
 
-original git: https://github.com/asdlokj1qpi23/subconverter
-
-[![Build Status](https://github.com/asdlokj1qpi233/subconverter/actions/workflows/docker.yml/badge.svg)](https://github.com/asdlokj1qpi233/subconverter/actions)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/asdlokj1qpi233/subconverter.svg)](https://github.com/asdlokj1qpi23/subconverter/tags)
-[![GitHub release](https://img.shields.io/github/release/asdlokj1qpi233/subconverter.svg)](https://github.com/asdlokj1qpi233/subconverter/releases)
-[![GitHub license](https://img.shields.io/github/license/asdlokj1qpi233/subconverter.svg)](https://github.com/tindy2013/subconverter/blob/master/LICENSE)
-
-[Docker README](https://github.com/asdlokj1qpi23/subconverter/blob/master/README-docker.md)
-
-[中文文档](https://github.com/asdlokj1qpi23/subconverter/blob/master/README-cn.md)
-
 - [subconverter](#subconverter)
   - [Docker](#docker)
   - [Supported Types](#supported-types)
@@ -64,7 +53,7 @@ services:
 | Surge 5                           |     ✓     |      ✓       | surge&ver=5    |
 | V2Ray                             |     ✓     |      ✓       | v2ray          |
 | Telegram-liked HTTP/Socks 5 links |     ✓     |      ×       | Only as source |
-| Singbox                           |     ✓      |      ✓       | singbox        |
+| Singbox                           |     ✓     |      ✓       | singbox        |
 
 Notice:
 
@@ -120,10 +109,6 @@ Finally subscribe this link in Clash and you are done!
 
 ---
 
-## Advanced Usage
-
-Please refer to [中文文档](https://github.com/asdlokj1qpi23/subconverter/blob/master/README-cn.md#%E8%BF%9B%E9%98%B6%E7%94%A8%E6%B3%95).
-
 ## Auto Upload
 
 > Upload Gist automatically
@@ -137,6 +122,3 @@ Example:
 ;uncomment the following line and enter your token to enable upload function
 token = xxxxxxxxxxxxxxxxxxxxxxxx(Your Personal Access Token)
 ```
-## Thanks
-[tindy2013](https://github.com/tindy2013)
-[https://github.com/tindy2013/subconverter](https://github.com/tindy2013/subconverter)
